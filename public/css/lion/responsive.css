@@ -1,0 +1,266 @@
+/* xl sizes */
+@media (min-width: 1500px) {
+  section.portfolio div[class*="col"] {
+    height: 250px;
+    line-height: 250px;
+  }
+}
+
+
+
+/* up to md */
+@media (max-width: 1199px) {
+  nav {
+    font-size: 16px;
+  }
+  h1.logo img {
+    max-width: 100%; 
+  }
+  ul.nav > li > a {
+  padding: 0 9px;
+  }
+  .button--xl {
+    font-size: 16px;
+  }
+  .button--xxl {
+    font-size: 16px;
+  }
+  .formBlock .heading .text--crossed {
+    margin-left: 0;
+  }
+  .cards {
+    padding: 50px 0;
+  }
+  .cards .heading {
+    text-align: center;
+  }
+  .cards-row {
+    text-align: center;
+  }
+  .card--blocked {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    float: none;
+  }
+}
+
+
+
+/* up to sm */
+@media (max-width: 991px) {
+  #touch-menu {
+    display: block;
+  }
+  ul.nav {
+    display: none;
+  }
+  ul.nav > li {
+    float: none;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    min-width: 300px;
+  }
+  ul.nav .expand ~ ul.hidden {
+  top: 44px;
+  }
+  .formBlock {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .formBlock .button {
+    margin-top: 20px;
+  }
+  .formBlock .heading {
+    line-height: 35px;
+  }
+  section.testimonials {
+    padding: 30px 0;
+  }
+  .testimonials-block .avatar {
+    float: none;
+    margin: 0 auto 40px;
+  }
+  .testimonials-block .text p {
+    margin-left: 0;
+  }
+  .testimonials-nav {
+    top: 80px;
+    width: 90%;
+  }
+  .stages-text:after,
+  .stages-lineAfter:before,
+  .stages-lineBefore:before {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  .fixedMenu-container {
+    position: static;
+  }
+  .fixedMenu-container ul.nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+  }
+  ul.nav > li {
+    display: inline-block;
+    min-width: auto;
+    float: none;
+    height: 55px;
+    line-height: 55px;
+  }
+  .fixedMenu ul.nav {
+    position: static;
+  }
+  .fixedMenu ul.nav > li {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  ul.nav .hidden {
+    display: none !important;
+  }
+  ul.nav .fa-angle-down {
+    display: none !important;
+  }
+  .fixedMenu {
+    position: fixed;
+    top: 15px;
+    left: 10px;
+    right: 10px;
+    z-index: 90;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 1px solid #e0e0e0;
+  }
+  .fixedMenu #touch-menu {
+    text-align: left;
+    padding: 0 15px;
+    height: 20px;
+    line-height: 20px;
+  }
+  .card--blocked {
+    max-width: 768px;
+    text-align: center;
+    height: auto;
+    padding: 25px 10px;
+  }
+  .card--blocked .list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+
+
+/* xs */
+@media (max-width: 767px) {
+  ul.nav > li {
+    height: auto;
+  }
+  #touch-menu {
+    height: 20px;
+    line-height: 20px;
+  }
+  ul.nav ul.hidden {
+    display: block;
+    position: static;
+  }
+  .fixedMenu-container ul.nav {
+    position: static;
+  }
+  .fixedMenu-container ul.nav > li {
+    float: left;
+    display: block;
+    width: 100%;
+  }
+  .heading {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+  }
+  .heading--sm {
+    font-size: 20px;
+  }
+  .heading--xl {
+    font-size: 40px;
+  }
+  header.face {
+    max-height: 500px;
+    padding-top: 50px;
+  }
+  section.services--big {
+    padding: 30px 0;
+  }
+  section.services--big .services-block {
+    margin: 20px auto;
+  }
+  section.about {
+    padding: 0;
+  }
+  .about-image {
+    display: none;
+  }
+  .serviceBlock-image {
+    display: none;
+    margin: 0;
+  }
+  .serviceBlock--wide {
+    padding: 20px 0;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .aboutDevelopment {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .aboutDevelopment .row:last-child {
+    border-top: 1px solid #dcdcdc;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .aboutDevelopment .list {
+    display: table;
+    margin: 20px auto;
+    text-align: left;
+  }
+  .aboutDevelopment-service {
+    min-height: auto;
+  }
+  .aboutDevelopment-service .icon,
+  .aboutDevelopment-service .text {
+    float: none;
+    margin: 25px auto;
+  }
+  .contactsBlock {
+    text-align: center;
+  }
+  .contactsBlock-contacts .heading {
+      line-height: 35px;
+  }
+  .contactsBlock-contacts .list li {
+    margin: 0;
+    padding-left: 0;
+    text-align: left;
+  }
+  .formFeedback .button-align {
+    text-align: center;
+  }
+  .formFeedback {
+    margin: 30px auto;
+  }
+}
+
+
+/* custom xxs */
+@media (max-width: 419px) {
+
+}

@@ -1,0 +1,12 @@
+.footer-seo-text h1,
+.footer-seo-text h2,
+.footer-seo-text h3 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.footer-seo-text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+}

@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+@media ( min-width : 600px) {
+	.navbar {font-size: 13px;}
+	.logoimg {margin-top:-20px;}
+}
+
+@media ( max-width : 767px) {
+	.navbar-toggle {display: block;}
+	.cont {margin-top:-20px;}
+	.logoimg {margin-top:0;}
+}
+@media ( max-width : 330px) {
+	.cont {margin-top:0;}
+}
+@media ( min-width :1000px) {
+	.navbar {font-size: 18px;}
+}
+
+.navbar {
+	color: #fff;
+	font-family: "Exo 2", ​sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-color: #3b1134;
+	border-color: #3b1134;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus
+	{
+	color: #f18223;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix+.carousel {
+	padding-top: 85px;
+}
+
+.logoimg {
+	-margin-top: -20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-toggle {
+	float: none;
+	margin-left: auto;
+	margin-right: auto; 
+	background-color : #f18223;
+	float: none;
+	color: #fff;
+	border:none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.cont {
+  border-color: #610e56 #4a0c41 #310a2c;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  float: right;
+  font-family: "PT Sans",sans-serif;
+  height: 23px;
+  padding: 0 8px;
+  position: relative;
+  text-align: center;
+}
+#kasper {
+  background-color: #3b1134;
+  border-color: #610e56 #4a0c41 #310a2c;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.75);
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 20px;
+  transition: opacity 0.5s ease-in-out 0s;
+  visibility: hidden;
+  width: 160px;
+  z-index: 9999;
+}
+.cont:hover #kasper {
+	opacity:0.8;
+	height:90px;
+	width:180px;
+	padding-right: 6px;
+	visibility: visible;
+}
+
+#banshad {
+  background: rgba(0, 0, 0, 0) url("/images/imagesfr/shadow1.png") no-repeat scroll center center / 100% 100%;
+  bottom: -30px;
+  height: 30px;
+  width: 100%;
+}
+.content {
+  color: #000;
+  font-family: "PT Sans",sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+.content h3 {
+  color: #000;
+  font-family: "Exo 2",sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  line-height: 150%;
+  margin: 0 0 20px;
+  padding-left: 6px;
+  text-transform: uppercase;
+}
+.content h3::before {
+  border-left: 3px solid #f18223;
+  content: " ";
+  height: 25px;
+  margin-left: -5px;
+  margin-top: 8px;
+  position: absolute;
+}
+.our-services {
+  text-align: center;
+}
+#divimg {
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+  border-radius: 999px;
+  display: block;
+  height: 90px;
+  margin: auto;
+  padding-top: 14px;
+  width: 90px;
+}
+#divimg:hover, #divimg2:hover {
+	background-color: #8d8d8d;
+}
+#divimg {
+	display:block;
+	background-color: #e7e7e7;
+	border: 1px solid #e7e7e7;
+	border-radius: 999px;
+	width: 90px;
+	height: 90px;
+	padding-top: 14px;
+    margin: auto;
+}
+
+#divimg2 {
+	background-color: #e7e7e7;
+	border: 1px solid #e7e7e7;
+	border-radius: 999px;
+	width: 90px;
+	height: 90px;
+	padding-top: 20px;
+    margin: auto;
+}
+
+#port img {
+width:370px;
+}
+#port img:hover {
+opacity:0;
+}
+
+#portmes {
+    position: absolute;
+    padding-top: 25px;
+    top: -4px;
+    left: -5px;
+	width: 105%;
+	height: 105%;
+	max-width:388px;
+	box-shadow: 0 0 15px #333;
+	border-radius: 5px;
+	opacity:0;
+    color: #fff;
+    font-family: "Exo 2",sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    text-transform: uppercase;
+	text-align: center;
+	background-color: rgba(216, 129, 48, 0.85);
+	transition: opacity 0.2s ease 0s;
+	z-index:10;
+}
+#portmes:hover {
+	opacity:1;
+}
+
+#prop {
+  background: #f0eeee none repeat scroll 0 0;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  font-family: "PT Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  transition: transform 0.1s ease-out 0.1s;
+}
+#prop h2 {
+  background: rgba(0, 0, 0, 0) url("/images/imagesfr/fon-violet.png") no-repeat scroll center center / cover ;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #fff;
+  font-family: "Exo 2",sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin: 0;
+  padding: 13px 0 10px;
+  text-transform: uppercase;
+}
+.orange-style {
+  background: #f18223 none repeat scroll 0 0;
+}
+.dark1-style {
+  background: #310a2c none repeat scroll 0 0;
+}
+#prop p {
+  color: #fff;
+  font-family: "Exo 2",sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  height: 38px;
+  line-height: 1.6em;
+  margin: 0;
+}
+#prop ul, #prop ul li {
+  color: #000;
+  font-family: "PT Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 2;
+  list-style: outside none none;
+  margin: 0;
+  padding-bottom: 0;
+  padding-left: 16px !important;
+  padding-right: 0;
+  padding-top: 0;
+  text-align: left;
+}
+.button {
+  border: 2px solid #f18223;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-family: "Exo 2",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0;
+  line-height: 2.8em;
+  margin: 15px 0;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  width: 80%;
+}
+.orangre-f {
+  color: #f18223;
+  font-family: "Exo 2",sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.bot-list {
+  color: #fff;
+  font-family: "PT Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 2;
+  list-style: outside none none;
+  padding-left: 0;
+}
+footer .glyphicon {
+  color: #f4511e;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.gm-style {
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.slideanim {
+
+	visibility:hidden;	
+}
+
+
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
