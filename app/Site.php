@@ -19,6 +19,7 @@ SRVMASSAGE;
         $patterns[1] = <<<SRVSTYLE
 |<style>#serv_mes{}</style>|
 SRVSTYLE;
+        $patterns[2] = '|<base.*>|';
         $replacements = array();
         $replacements[0] = <<<SRVMES
 <div id="serv_mes"><a href="gallery">ВЕРНУТЬСЯ</a><br><a href="logout">ВЫЙТИ</a></div>
@@ -60,7 +61,7 @@ SRVMES;
 }
 </style>
 SRVSTL;
-
+        $replacements[2] = '<base href='.$_SERVER['APP_URL'].'>';
         $content = preg_replace($patterns,$replacements,$content);
         return $content;
     }

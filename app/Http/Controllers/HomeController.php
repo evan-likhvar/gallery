@@ -53,7 +53,7 @@ class HomeController extends Controller
 
         $user_id = $site->first()->user_id; //номер юзера-владельца страницы
 
-return $site->first()->getMyContent($site->first()->content);
+    return $site->first()->getMyContent($site->first()->content);
 
 /*        $truth = json_decode($site);
         $a = $truth[0]->content;            // полная страница без экранирования

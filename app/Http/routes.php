@@ -30,3 +30,9 @@ Route::get('/gallery', 'HomeController@gallery');
 
 Route::get('/site/{name}', array('as'=>'site','uses'=>'HomeController@site')
 );
+
+Route::get('/tst',  function() {
+$request = $_REQUEST;
+    dd($_SERVER);
+    return;
+});
