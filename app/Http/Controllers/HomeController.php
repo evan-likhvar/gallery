@@ -40,7 +40,7 @@ class HomeController extends Controller
         if ($cur_user->id != 1)
             return redirect()->guest('logout');
 
-        $sites = site::all();
+        $sites = Site::all()->sortBy('site_order');
         
         return view('sites.gallery',compact('sites'));
     }
@@ -49,11 +49,11 @@ class HomeController extends Controller
     public function site($name)
     {
 
-        $site = site::where('name',$name)->get();
+        $site = Site::where('name',$name)->get();
 
-        $user_id = $site->first()->user_id; //номер юзера-владельца страницы
+        $user_id = $site->First()->user_id; //номер юзера-владельца страницы
 
-    return $site->first()->getMyContent($site->first()->content);
+    return $site->First()->getMyContent($site->First()->content);
 
 /*        $truth = json_decode($site);
         $a = $truth[0]->content;            // полная страница без экранирования
