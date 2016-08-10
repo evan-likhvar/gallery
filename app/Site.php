@@ -45,8 +45,15 @@ SRVMES;
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.75);
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    
+    line-height: 20px;
  }
+#serv_mes a {    
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
 #serv_mes:hover {
 	opacity:1;
 	background-color:#fff;
