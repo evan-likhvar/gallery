@@ -192,7 +192,7 @@ dl.events  dt a{
 	100% {transform: translateY(140px);}
 }
 .code {
-  background: rgba(0, 0, 0, 0) url("/images/imagescolr/123.png") repeat-y scroll 0% 0%;
+  background: rgba(0, 0, 0, 0) url("res/123.png") repeat-y scroll 0% 0%;
   height: 0px;
   opacity: 1;
   overflow: hidden;

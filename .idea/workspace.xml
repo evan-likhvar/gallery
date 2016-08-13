@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4abb2b5-2a5e-4ebc-a791-f0a10be294ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Site.php" afterPath="$PROJECT_DIR$/app/Site.php" />
-    </list>
+    <list default="true" id="e4abb2b5-2a5e-4ebc-a791-f0a10be294ec" name="Default" comment="" />
     <ignored path="csm.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -332,12 +329,12 @@
       <workItem from="1470406166595" duration="667000" />
       <workItem from="1470672026565" duration="4069000" />
       <workItem from="1470731553055" duration="7146000" />
-      <workItem from="1470827736866" duration="8384000" />
+      <workItem from="1470827736866" duration="8980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76336000" />
+    <option name="totallyTimeSpent" value="76932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,7 +347,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27292112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

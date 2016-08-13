@@ -41,7 +41,7 @@ p {
   display:none;
 }
 .logotype {
-  background-image: url("images/bee/logo-mini.png");
+  background-image: url("res/logo-mini.png");
   background-repeat: no-repeat;
   height: 107px;
   position: relative;
@@ -50,7 +50,7 @@ p {
   margin: 0 auto;
 }
 .tel_icon {
-  background-image: url("images/tel_icone.png");
+  background-image: url("res/tel_icone.png");
   background-position: left center;
   background-repeat: no-repeat;
   clear: both;
@@ -174,7 +174,7 @@ ul, ol {
   color: #f6bb08;
 }
 .img_service {
-  background-image: url("images/bee/img1.png");
+  background-image: url("res/img1.png");
   background-repeat: no-repeat;
   height: 392px;
 }
@@ -224,10 +224,10 @@ h1, h2, h3, h4, h5, h6 {
   background-image: none;
 }
 span.slider-arrows-prev {
-background-image: url("images/bee/arrows-next.png");
+background-image: url("res/arrows-next.png");
 }
 span.slider-arrows-next {
-  background-image: url("images/bee/arrows-next.png");
+  background-image: url("res/arrows-next.png");
 }
 span.arrows {
   background-repeat: no-repeat;
@@ -675,22 +675,22 @@ ul.info-list li {
   color: #222;
 }
 
-@media (min-width:300px){.logotype {background-image: url("/images/bee/logo-mini.png");width: 210px;margin: 0 auto;}}
+@media (min-width:300px){.logotype {background-image: url("res/logo-mini.png");width: 210px;margin: 0 auto;}}
 @media (min-width: 480px) {
 	.navigation .navbar-default ul.navbar-nav li a { font-size: 8px;}
-	.logotype {background-image: url("/images/bee/logo-mini.png");width: 210px;margin: 0 auto;height: 70px;}
+	.logotype {background-image: url("res/logo-mini.png");width: 210px;margin: 0 auto;height: 70px;}
 	.tel_icon p {font-size: 20px;line-height: 28px;}	
 }
 @media (min-width: 768px) {
 	.navigation .navbar-default ul.navbar-nav li a { font-size: 18px;padding-left:5px;padding-right:5px;}
-	.logotype {background-image: url("/images/bee/logo-mini.png");width: 210px;margin: 0 auto;height: 70px;}
+	.logotype {background-image: url("res/logo-mini.png");width: 210px;margin: 0 auto;height: 70px;}
 	.tel_icon p {font-size: 20px;line-height: 28px;}
 	.logo_a{display:none;}
 	.box_service p {text-align: left;}
 	
 }
 @media (min-width: 979px) {.navigation .navbar-default ul.navbar-nav li a { font-size: 20px;padding-left:8px;padding-right:8px;}
-	.logotype {background-image: url("/images/bee/logo.png");width: 365px;margin: 0 auto;height: 104px;}
+	.logotype {background-image: url("res/logo.png");width: 365px;margin: 0 auto;height: 104px;}
 	.tel_icon p {font-size: 22px;line-height: 46px;}
 	.callout a.btn {margin-top: 20px;}
 	.logo_a{display:block;}
@@ -699,7 +699,7 @@ ul.info-list li {
 	.border_wrk {display:block;}
 }
 @media (min-width:1200px) {.navigation .navbar-default ul.navbar-nav li a {font-size: 24px;padding-left:15px;padding-right:15px;}
-	.logotype {background-image: url("/images/bee/logo.png");width: 365px;margin: 0 auto;height: 104px;}
+	.logotype {background-image: url("res/logo.png");width: 365px;margin: 0 auto;height: 104px;}
 	.callout a.btn {margin-top: 20px;}
 	.box_service p {font-size: 22px;}	
 }

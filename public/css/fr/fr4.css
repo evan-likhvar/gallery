@@ -108,7 +108,7 @@
 }
 
 #banshad {
-  background: rgba(0, 0, 0, 0) url("/images/imagesfr/shadow1.png") no-repeat scroll center center / 100% 100%;
+  background: rgba(0, 0, 0, 0) url("res/shadow1.png") no-repeat scroll center center / 100% 100%;
   bottom: -30px;
   height: 30px;
   width: 100%;
@@ -219,7 +219,7 @@ opacity:0;
   transition: transform 0.1s ease-out 0.1s;
 }
 #prop h2 {
-  background: rgba(0, 0, 0, 0) url("/images/imagesfr/fon-violet.png") no-repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("res/fon-violet.png") no-repeat scroll center center / cover ;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   color: #fff;

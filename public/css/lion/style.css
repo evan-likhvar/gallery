@@ -97,10 +97,10 @@ b {
   padding: 0 0 0 20px;
 }
 .list--markedBlue {
-  list-style-image: url('/images/imageslion//check-blue.png');
+  list-style-image: url('res/check-blue.png');
 }
 .list--angledBlue {
-  list-style-image: url('/images/imageslion//angle-right-small-blue.png');
+  list-style-image: url('res/angle-right-small-blue.png');
 }
 .list--numStages {
   list-style-type: none;
@@ -389,7 +389,7 @@ header.face {
   max-height: 590px;
   padding-top: 115px;
   overflow-y: hidden;
-  background-image: url('/images/imageslion//bg-header.png');
+  background-image: url('res/bg-header.png');
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -450,7 +450,7 @@ section.portfolio .js-getImage {
   left: 0;
   top: 0;
   background-color: rgba(0,0,0,0.74);
-  background-image: url('/images/imageslion//big-search.png');
+  background-image: url('res/big-search.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -469,7 +469,7 @@ section.about .heading {
 .about-text {
   max-width: 500px;
   padding-left: 75px;
-  background-image: url('/images/imageslion//markers.png');
+  background-image: url('res/markers.png');
   background-repeat: no-repeat;
   background-position: 0 5px;
 }
@@ -612,11 +612,11 @@ section.testimonials {
 }
 .testimonials-prev {
   float: left;
-  background-image: url('/images/imageslion//angle-left-blue.png');
+  background-image: url('res/angle-left-blue.png');
 }
 .testimonials-next {
   float: right;
-  background-image: url('/images/imageslion//angle-right-blue.png');
+  background-image: url('res/angle-right-blue.png');
 }
 
 
@@ -757,7 +757,7 @@ section.stages .heading {
 =======================================*/
 
 .contactsBlock--xl {
-  background-image: url('/images/imageslion//bg-footer.png');
+  background-image: url('res/bg-footer.png');
   background-size: cover;
   background-position: center;
   color: #fff;

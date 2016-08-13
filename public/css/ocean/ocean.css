@@ -142,7 +142,7 @@ margin:0 auto;
 }
 .gkRocket {
     background-color: #fff;
-    background-image: url("/images/ocean/gkrocket.png");
+    background-image: url("res/gkrocket.png");
     background-position: center top;
 }
 .gkRocket:hover {
@@ -151,7 +151,7 @@ margin:0 auto;
 }
 .gkCrop {
     background-color: #fff;
-    background-image: url("/images/ocean/gkcrop.png");
+    background-image: url("res/gkcrop.png");
     background-position: center top;
 }
 .gkCrop:hover {
@@ -160,7 +160,7 @@ margin:0 auto;
 }
 .gkMobile {
     background-color: #fff;
-    background-image: url("/images/ocean/gkmobile.png");
+    background-image: url("res/gkmobile.png");
     background-position: center top;
 }
 .gkMobile:hover {
@@ -168,7 +168,7 @@ margin:0 auto;
     background-position: center bottom;
 }
 .gkIconArea {
-  background: transparent url("/images/ocean/icon_borders.png") no-repeat scroll 0 0;
+  background: transparent url("res/icon_borders.png") no-repeat scroll 0 0;
   height: 270px;
   margin: 0 auto 40px;
   position: relative;
