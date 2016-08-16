@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media (max-width:1200px) {
+    .navbar {
+        letter-spacing: 1px;
+    }
+}
+@media (max-width:992px) {
+    #m0 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .jumbotron {
+        background: none;
+        background-color: #fff;
+    }
+    .asteril-block4 {
+        text-align: center;
+    }
+    .info-text {
+        text-align: center;
+    }
+    .col-sm-5 {
+        display:block;
+        margin:0 auto;
+        text-align: center;
+    }
+}
